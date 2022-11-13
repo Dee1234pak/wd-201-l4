@@ -1,0 +1,25 @@
+{
+    "name": "wd201",
+    "version": "1.0.0",
+    "description": "",
+    "main": "todo.js",
+    "scripts": {
+        "test": "jest",
+        "prepare": "husky install"
+    },
+    "author": "Melson",
+    "liscense ": "ISC",
+    "devDependenceies": {
+        "husky": "^8.0.1",
+        "jest": "^28.1.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.27.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "husky": "^8.0.2",
+        "lint": "^1.1.2",
+        "prettier": "^2.7.1",
+        "staged": "^0.0.0"
+    }
+}
