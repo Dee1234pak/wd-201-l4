@@ -20,8 +20,8 @@ describe("TodoList Test Suite", () => {
         expect(all.length).toBe(1);
     });
     test("shouldmark as todo complete", () => {
-        except(all[0].complete).toBe(false);
+        expect(all[0].complete).toBe(false);
         markAsComplete(0);
-        except(all[0].completed).toBe(true);
+        expect(all[0].completed).toBe(true);
     });
 });
